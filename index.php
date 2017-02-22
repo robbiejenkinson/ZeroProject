@@ -1,14 +1,17 @@
 <?php
 
-include 'dbconnect.php';
+include 'dbConfig/dbconnect.php';
 
 
 
 if(isset($_POST['submit'])){
 
 $Name = ($_POST['name']);
+$Subject = ($_POST['subject']);
+$Message = ($_POST['message']);
 
-$sql = "INSERT INTO users (name) VALUES ('$Name')";
+
+$sql = "INSERT INTO users (name,subject,message) VALUES ('$Name','$Subject','$Message')";
 
 
 if (!mysqli_query($connection,$sql)) {
@@ -134,8 +137,12 @@ mysqli_close($connection);
                  <h1>Half Slider by Start Bootstrap</h1>
 
                  <!-- Testing Pagoda -->
-                 <form>
+                 <form method="post" action="">
                   <input type="text" name="name" id="name" required="required" class="form" placeholder="Name">
+
+                  <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject">
+
+                  <textarea name="message" id="message" class="form textarea"  placeholder="Message" align="center"></textarea>
 
                     <button type="submit" id="submit" name="submit" class="form-btn semibold"> Send Message </button>
                 </form>
