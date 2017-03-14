@@ -17,6 +17,8 @@
     <!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet">
 
+    <link href="css/dropdown.css" rel="stylesheet">
+
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
@@ -45,24 +47,34 @@
                 </button>
                 <a class="navbar-brand topnav" href="#">SpringIn</a>
             </div>
+
+
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
+
+                  <li>
+                      <a href="#services">About</a>
+                  </li>
+                  <li>
+                      <a href="#contact">Contact</a>
+                  </li>
+                  </li>
                     <li>
-                        <a href="#about">About</a>
+                        <a href="feed.php">feed</a>
                     </li>
-                    <li>
-                        <a href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
+
                 </ul>
             </div>
+
+</div>
+
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
     </nav>
+
+
 
 
     <!-- Header -->
@@ -107,8 +119,8 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">The Edge:</h2>
-                    <p class="lead">KickStart your career, and build your CV by showcasing your work, masterpieces, products and freelance projects for use by entrepreneurs and business' at low cost, in return for business and job opportunities, Connections and Experience</p>
+                    <h2 class="section-heading">What is SpringIn?</h2>
+                    <p class="lead">As well as being a place to store your masterpieces, SpringIn is essentially an interactive portfolio and Freelance service combined, which allows you to show off your pieces for use by Business', Entreprenuers, or anybody for that matter. By adding SpringIn to your LinkedIn profile, your CV or your applictation letter, they can then go to your SpringIn profile, view your projects and materpieces, see how many people have interacted with your profile and what your strengths are etc.</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <img class="img-responsive" src="img/ipad.png" alt="">
@@ -116,6 +128,7 @@
             </div>
 
         </div>
+
         <!-- /.container -->
 
     </div>
@@ -130,11 +143,27 @@
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Why SpringIn?</h2>
-                    <p class="lead">SpringIn allows people who are looking to break into their chosen field of work, Build there CV, Gain experience, Gain Connections or even find a job to provide a product or service at low cost, But also allows entrepreneurs and business' to aquire these products or services for a low cost in return for Spreading the word, Offering a Job, Being a connection, Endorsing the person.</p>
-                    <h3 class="section-heading">Why not SpringIn?</h3>
+                    <p class="lead">Are you somebody trying to make your hobby your career? Just tarting out? trying to gain that experience? Or are you searching for freelance projects at a low cost? SpringIn was developed with the purpose of the user being able to store, show off, and advertise their masterpieces, or service for use by a business, entreprenuer or hobbyist with a low budget. By using SpringIn, you can open up a whole world of opportunity for yourself, as well as gaining Tips, Experience, Jobs, and Connections, form people that engage with your profile which is the ultimate goal of SpringIn.</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
                     <img class="img-responsive" src="img/dog.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Who is SpringIn for?</h2>
+                    <p class="lead">SpringIn is for anyone who would like to view, store and , or share projects and masterpieces, with the hope of there profile and pieces being viewed and used, which leads to Endoresments on LinkedIn, Connections, Updates on your CV, Jobs, Experience and much more. </p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/phones.png" alt="">
                 </div>
             </div>
 
@@ -178,6 +207,7 @@
 
     <!-- Footer -->
     <footer>
+      <br />
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
